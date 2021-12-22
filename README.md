@@ -16,11 +16,6 @@ The 3 services communicate to each other via an API.
 2. Support Authentication
 3. 2 backend services in python
 
-Interpretation of the problem:
-I need to develop an application with striclty 3 services but supports authentication that means one of the services has to be an authentication service.
-The next service has to be the front end. Leaving me to chose the last service so i went with a simple task management service. Since i can create another service,
-i can not have a dedicated database server so i shall just use sqlite database.
-
 ### Proposed Solution:
 Services:
 <ol>
