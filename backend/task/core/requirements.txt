@@ -1,0 +1,14 @@
+Django>=3,<4
+django-extensions
+djangorestframework
+asgiref
+certifi
+charset-normalizer
+idna
+PyJWT
+pytz
+requests
+sqlparse
+typing_extensions
+urllib3
+django-cors-headers

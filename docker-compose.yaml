@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  task-service:
+    build:
+      context: ./backend/task
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    networks:
+      - servicenetwork
+  
+  authentication-service:
+    build:
+      context: ./backend/user
+      dockerfile: Dockerfile
+    ports:
+     - 8080:8080
+    networks:
+     - servicenetwork
+  
+  web-service:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+     - 8888:8888
+    networks:
+     - servicenetwork
+
+networks:
+  servicenetwork:
+    driver: bridge
