@@ -14,7 +14,7 @@
     <b-row class="mt-4">
       <b-col>
         <b-button variant="danger" @click="removeCustomerFromData"
-          >Delete Task</b-button
+          >Delete User</b-button
         >
       </b-col>
       <b-col>
