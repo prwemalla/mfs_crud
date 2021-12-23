@@ -82,11 +82,14 @@ Services:
 How to run:
 1. Clone repo
 2. open terminal in project directory
-3. run command:
+3. to start the project, run command:
+
 ```sh
-docker-compose up --build to start the project
+docker-compose up --build
  ```
+
 4. to run the application Browse to: 
+
 ```sh
 http://localhost:8888/
  ```
